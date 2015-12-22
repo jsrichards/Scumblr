@@ -17,7 +17,7 @@ require 'uri'
 require 'net/http'
 require 'json'
 
-class SearchProvider::Github_fs_eng < SearchProvider::Provider
+class SearchProvider::Githubfseng < SearchProvider::Provider
   def self.provider_name
     "Github FS-Eng Repository Search"
   end
